@@ -2,7 +2,7 @@
   "name": "agency",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bscodes.github.io/react-agency-website/",
+  "homepage": "https://townsvillewebsites-cjgtyfy5n-camjacksondevs-projects.vercel.app",
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "gh-pages": "^2.1.1",
