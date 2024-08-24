@@ -46,13 +46,22 @@ class OurTeam extends Component {
                     thrives on creativity, innovation, and bringing people's
                     visions to life. Born and raised in Townsville, he has
                     witnessed the growth of this vibrant town and is deeply
-                    committed to its community. Cam believes in transparency,
-                    honesty, and respecting people's time. With a strong
-                    entrepreneurial spirit, he is dedicated to helping
-                    businesses and individuals turn their ideas into reality
-                    through cutting-edge software solutions. Cam loves meeting
-                    new people, and while he's always up for a coffee, he'd much
-                    rather chat over a beer.
+                    committed to its community. In addition to being a skilled
+                    Software Developer, Cam has a rich background as a Clinical
+                    Nurse and Electrician.
+                  </p>
+                  <p className="title-text mt-4 mb-4 title-font-2 text-justify">
+                    His diverse experiences enhance his problem-solving
+                    abilities and offer a unique perspective on tackling
+                    challenges. Cam believes in transparency, honesty, and
+                    respecting people's time.
+                  </p>
+                  <p className="title-text mt-4 mb-4 title-font-2 text-justify">
+                    With a strong entrepreneurial spirit, he is dedicated to
+                    helping businesses and individuals turn their ideas into
+                    reality through cutting-edge software solutions. He loves
+                    meeting new people, and while he's always up for a coffee,
+                    he'd much rather chat over a beer.
                   </p>
                 </div>
               </div>
