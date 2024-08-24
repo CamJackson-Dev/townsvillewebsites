@@ -6,7 +6,7 @@ export const works = [
   {
     id: 1,
     src: [Portfolio1],
-    desc: "Our most complex yet exciting projects to date is Australasia.com - promoting the beauty of Australia, New Zealand & New Guinea tot he world.",
+    desc: "Our most complex yet exciting projects to date is Australasia.com - promoting the beauty of Australia, New Zealand & New Guinea to the world.",
     title: "Australasia.com",
     date: "March 20, 2020",
     link: "https://australasia.com/",
