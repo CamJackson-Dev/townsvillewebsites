@@ -18,21 +18,15 @@ class OurTeam extends Component {
                         className="col-lg-6 col-md-8 col-sm-10"
                         key={person.id}
                       >
-                        <div className="portfolio-thumb text-center">
+                        <div className="row justify-content-center align-items-center">
                           <ImageContentHover
-                            className="d-block mx-auto"
+                            className="d-block mx-auto portfolio-thumb"
                             image={person.image}
                             content={{
                               title: [person.name],
                               body: [person.position],
                             }}
-                            effect="fadeIn"
-                            style={{
-                              maxWidth: "300px",
-                              maxHeight: "300px",
-                              width: "100%",
-                              height: "auto",
-                            }} // Adjust the size as needed
+                            // effect="fadeIn"
                           />
                         </div>
                         <div className="person-info mb-5 text-center">
