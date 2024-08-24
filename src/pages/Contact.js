@@ -52,10 +52,10 @@ const Contact = () => {
         <div className="row align-items-center">
           <div className="col-md-7 mx-auto">
             <div className="contact-title mb-5 mt-5">
-              <h1 className="title-font title-font-size">Contact</h1>
+              <h1 className="title-font title-font-size">Contact Us</h1>
               <p className="mt-4 mb-4 title-font-2">
-                Say Hello. If you want to extend some info, do not hesitate to
-                fill this form, we love to say ‘Hello Mate’.
+                G'day! Thanks for dropping us a message. We'll get back to you
+                as soon as we can. Cheers!
               </p>
             </div>
           </div>

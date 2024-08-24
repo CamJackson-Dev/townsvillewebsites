@@ -1,0 +1,16 @@
+.portfolio-thumb {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Ensure the container is square */
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.portfolio-thumb img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+}

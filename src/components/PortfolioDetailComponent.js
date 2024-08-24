@@ -1,7 +1,7 @@
 import React from "react";
 
 const PortfolioDetailComponent = (props) => {
-  const { title, src, desc, date, category } = props.item;
+  const { title, src, desc, date, link, category } = props.item;
 
   return (
     <>
@@ -10,19 +10,25 @@ const PortfolioDetailComponent = (props) => {
           <div className="row align-items-center">
             <div className="col-md-7 mx-auto">
               <div className="services-title mb-5 mt-5">
-                <h2 className="title-font title-font-size">{title}</h2>
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  <h2 className="title-font title-font-size">{title}</h2>
+                </a>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-md-9">
               <div className="detail-image-box mb-5">
-                <img src={src} alt="detail" className="detail-image" />
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  <img src={src} alt="detail" className="detail-image" />
+                </a>
               </div>
             </div>
             <div className="col-md-3">
               <div className="detail-info text-left title-font-2">
-                <h2 className="work-title">{title}</h2>
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  <h2 className="work-title">{title}</h2>
+                </a>
                 <p className="description title-text mt-4 mb-4 ">{desc}</p>
                 <hr />
                 <h3 className="work-info mb-3">Info</h3>

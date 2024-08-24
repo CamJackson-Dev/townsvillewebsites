@@ -11,37 +11,57 @@ class OurTeam extends Component {
             <div className="row align-items-center">
               <div className="col-md-7 mx-auto">
                 <div className="team-title mb-5 mt-5">
-                  <h1 className="title-font title-font-size">Our team</h1>
-                  <p className="title-text mt-4 mb-4 title-font-2">
-                    Great work, great people.
+                  <h1 className="title-font title-font-size">Meet Cam</h1>
+                  <div className="row justify-content-center align-items-center">
+                    {this.props.persons.map((person) => (
+                      <div
+                        className="col-lg-6 col-md-8 col-sm-10"
+                        key={person.id}
+                      >
+                        <div className="portfolio-thumb text-center">
+                          <ImageContentHover
+                            className="d-block mx-auto"
+                            image={person.image}
+                            content={{
+                              title: [person.name],
+                              body: [person.position],
+                            }}
+                            effect="fadeIn"
+                            style={{
+                              maxWidth: "300px",
+                              maxHeight: "300px",
+                              width: "100%",
+                              height: "auto",
+                            }} // Adjust the size as needed
+                          />
+                        </div>
+                        <div className="person-info mb-5 text-center">
+                          <p className="person-name title-font-2">
+                            {person.name}
+                          </p>
+                          <p className="person-position title-font-2">
+                            {person.position}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  <p className="title-text mt-4 mb-4 title-font-2 text-justify">
+                    Cam is a passionate and driven Software Developer who
+                    thrives on creativity, innovation, and bringing people's
+                    visions to life. Born and raised in Townsville, he has
+                    witnessed the growth of this vibrant town and is deeply
+                    committed to its community. Cam believes in transparency,
+                    honesty, and respecting people's time. With a strong
+                    entrepreneurial spirit, he is dedicated to helping
+                    businesses and individuals turn their ideas into reality
+                    through cutting-edge software solutions. Cam loves meeting
+                    new people, and while he's always up for a coffee, he'd much
+                    rather chat over a beer.
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="row align-items-center">
-              {this.props.persons.map((person) => (
-                // show portfoilo boxes by mapping the array of images
-                <div className="col-lg-4 col-md-6 col-sm-6" key={person.id}>
-                  <div className="portfolio-thumb">
-                    <ImageContentHover
-                      className="center-block"
-                      image={person.image}
-                      content={{
-                        title: [person.name],
-                        body: [person.position],
-                      }}
-                      effect="fadeIn"
-                    />
-                  </div>
-                  <div className="person-info mb-5">
-                    <p className="person-name title-font-2"> {person.name} </p>
-                    <p className="person-position title-font-2">
-                      {" "}
-                      {person.position}{" "}
-                    </p>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </section>
