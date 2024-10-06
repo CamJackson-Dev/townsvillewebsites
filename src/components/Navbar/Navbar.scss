@@ -7,11 +7,12 @@ $primaryFont: "Paytone One", sans-serif;
 $secondaryFont: "Nunito", sans-serif;
 
 .header-transparent {
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
+  background: white;
 
   .navbar-brand {
     color: white;
@@ -25,7 +26,7 @@ $secondaryFont: "Nunito", sans-serif;
   }
 
   span i {
-    color: white;
+    $primaryColor: white;
     padding-left: 50%;
   }
 
@@ -75,7 +76,7 @@ $secondaryFont: "Nunito", sans-serif;
     padding-right: 30px !important;
     padding-left: 30px !important;
     padding-top: 40px !important;
-    color: white !important;
+    color: $primaryColor !important;
     font-family: $secondaryFont !important;
     font-weight: bold !important;
     border-bottom: none !important;
