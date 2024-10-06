@@ -2,8 +2,9 @@ import React from "react";
 import LetsWork from "../components/LetsWorkTogether";
 
 // service icons
-import icon1 from "../img/services/instaicon.png";
-import mail from "../img/services/mail.png";
+// import icon1 from "../img/services/instaicon.png";
+import mobile from "../img/services/mobile-dev.jpg";
+import qrcode from "../img/services/qr-code-no-logo.png";
 import seo from "../img/services/seo.png";
 import content from "../img/services/content.png";
 import share from "../img/services/share.png";
@@ -11,19 +12,26 @@ import web from "../img/services/web.png";
 
 const Services = () => {
   const serviceIcons = [
+    // {
+    //   id: "1",
+    //   title: "Instagram Engagement Campaign",
+    //   image: icon1,
+    //   description:
+    //     "Our Instagram engagement campaign will have your Instagram account come alive. ",
+    // },
     {
       id: "1",
-      title: "Instagram Engagement Campaign",
-      image: icon1,
+      title: "Web Design & Development",
+      image: web,
       description:
-        "Our Instagram engagement campaign will have your Instagram account come alive. ",
+        "Our web design and development services include everything from graphic design to UX.",
     },
     {
       id: "2",
-      title: "Email Marketing",
-      image: mail,
+      title: "Digital Business Cards",
+      image: qrcode,
       description:
-        "Stay top of mind with one of the most creative email marketing campaigns.",
+        "Make a lasting impression with one of the most innovative and memorable digital business cards, designed to keep you top of mind.",
     },
     {
       id: "3",
@@ -48,10 +56,10 @@ const Services = () => {
     },
     {
       id: "6",
-      title: "Web Design & Development",
-      image: web,
+      title: "Mobile Design & Development",
+      image: mobile,
       description:
-        "Our web design and development services include everything from graphic design to UX.",
+        "Our mobile design and development services include everything from graphic design to UX.",
     },
   ];
 

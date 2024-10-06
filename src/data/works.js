@@ -1,4 +1,4 @@
-import Portfolio1 from "../img/portfolio/p1.png";
+import Portfolio1 from "../img/portfolio/p1.jpg";
 import Portfolio2 from "../img/portfolio/p2.jpg";
 import Portfolio3 from "../img/portfolio/p3.jpg";
 
@@ -6,10 +6,10 @@ export const works = [
   {
     id: 1,
     src: [Portfolio1],
-    desc: "Our most complex yet exciting projects to date is Australasia.com - promoting the beauty of Australia, New Zealand & New Guinea to the world.",
-    title: "Australasia.com",
+    desc: "Our most complex yet exciting projects to date is Pasifikan.com - promoting the beauty of the Pacific Islands - Australia, New Zealand & New Guinea to the world.",
+    title: "Pasifikan.com",
     date: "March 20, 2020",
-    link: "https://australasia.com/",
+    link: "https://pasifikan.com/",
     category: "Major Project: Ongoing Design, Develop & Maintain",
   },
   {
