@@ -43,25 +43,22 @@ class OurTeam extends Component {
 
                   <p className="title-text mt-4 mb-4 title-font-2 text-justify">
                     Cam is a passionate and driven Software Developer who
-                    thrives on creativity, innovation, and bringing people's
+                    thrives on creativity and innovation, dedicated to bringing
                     visions to life. Born and raised in Townsville, he has
-                    witnessed the growth of this vibrant town and is deeply
-                    committed to its community. In addition to being a skilled
-                    Software Developer, Cam has a rich background as a Clinical
-                    Nurse and Electrician.
+                    witnessed the transformation of this vibrant community and
+                    is deeply committed to its growth and development.
                   </p>
                   <p className="title-text mt-4 mb-4 title-font-2 text-justify">
-                    His diverse experiences enhance his problem-solving
-                    abilities and offer a unique perspective on tackling
-                    challenges. Cam believes in transparency, honesty, and
-                    respecting people's time.
-                  </p>
-                  <p className="title-text mt-4 mb-4 title-font-2 text-justify">
-                    With a strong entrepreneurial spirit, he is dedicated to
+                    With a strong entrepreneurial spirit, Cam is committed to
                     helping businesses and individuals turn their ideas into
-                    reality through cutting-edge software solutions. He loves
-                    meeting new people, and while he's always up for a coffee,
-                    he'd much rather chat over a beer.
+                    reality through cutting-edge software solutions. He values
+                    transparency, honesty, and respect for people's time,
+                    ensuring a collaborative and efficient working relationship.
+                  </p>
+                  <p className="title-text mt-4 mb-4 title-font-2 text-justify">
+                    Cam enjoys meeting new people and believes in the power of
+                    connection—while he’s always up for a coffee, he prefers to
+                    share ideas over a cold beer.
                   </p>
                 </div>
               </div>
