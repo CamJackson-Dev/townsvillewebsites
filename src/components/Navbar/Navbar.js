@@ -9,7 +9,11 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg text-center">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            <img src="/logo.png" alt="Logo" className="logo" />
+            <img
+              src="/townsvillleWebsitesLogo.png"
+              alt="Logo"
+              className="logo"
+            />
           </Link>
           <button
             className="navbar-toggler"
