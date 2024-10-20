@@ -28,10 +28,10 @@ const Services = () => {
     },
     {
       id: "2",
-      title: "Digital Business Cards",
+      title: "Green Business Cards",
       image: qrcode,
       description:
-        "Make a lasting impression with one of the most innovative and memorable digital business cards, designed to keep you top of mind.",
+        "Make a lasting impression with innovative Digital Business Cards—designed to keep you memorable while reducing paper waste. ",
     },
     {
       id: "3",
